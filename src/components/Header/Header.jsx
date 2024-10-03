@@ -5,9 +5,9 @@ import { NavBar } from '../NavBar/NavBar'
 
 export const Header =()=>{
     return <header className={styles.wrapper}>
-        <Link to="/">
-          <Logo />
-        </Link>
-        <NavBar/>
+      <div className={styles.container}>
+        <Link className={styles.logo} to="/"><Logo /></Link>
+        <NavBar />
+      </div>        
     </header>
 }

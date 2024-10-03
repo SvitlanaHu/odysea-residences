@@ -1,21 +1,14 @@
 .logoContainer {
   display: flex;
   flex-direction: column;
-
-  border: 3px red;
   font-family: "Comfortaa", sans-serif;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .logo {
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
-  color: white;
-  transition: font-size 0.3s ease;
-}
-.logoContainer:hover .logo,
-.logoContainer:focus .logo {
-  font-size: 60px;
 }
 
 .logoS {
@@ -23,44 +16,24 @@
   font-weight: 500;
   font-style: normal;
   font-size: 40px;
-  transition: font-size 0.3s ease;
-}
-.logoContainer:hover .logoS,
-.logoContainer:focus .logoS {
-  font-size: 80px;
 }
 
 .logoTiny {
   margin-top: -24px;
   font-size: 9px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
   text-align: right;
   color: white;
-  transition: font-size 0.3s ease;
-}
-.logoContainer:hover .logoTiny,
-.logoContainer:focus .logoTiny {
-  margin-top: -48px;
-  font-size: 19px;
 }
 
 .logoText {
   font-family: "Genos", sans-serif;
   font-weight: 500;
   font-size: 12px;
-  transition: font-size 0.3s ease;
-}
-.logoContainer:hover .logoText,
-.logoContainer:focus .logoText {
-  font-size: 25px;
 }
 
 .logoTextR {
   font-size: 18px;
   font-weight: 400;
   font-family: "Genos", sans-serif;
-  transition: font-size 0.3s ease;
-}
-.logoContainer:hover .logoTextR,
-.logoContainer:focus .logoTextR {
-  font-size: 36px;
 }

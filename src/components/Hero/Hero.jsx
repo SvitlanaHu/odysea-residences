@@ -22,11 +22,10 @@ export const Hero = () => {
   const currentImage = heroImages[location.pathname] || homeHero;
 
   return (
-    <div className={styles.hero} style={{ backgroundImage: `url(${currentImage})` }}>
-      <div className={styles.heroContent}>
-        {/* Тут можна додати заголовок чи інший контент */}
+    <section className={styles.wrapper} style={{ backgroundImage: `url(${currentImage})` }}>
+      <div className={styles.container}>
         <h1>{location.pathname === '/' ? 'Welcome to Our Website' : location.pathname.slice(1).toUpperCase()}</h1>
       </div>
-    </div>
+    </section>
   );
 };
