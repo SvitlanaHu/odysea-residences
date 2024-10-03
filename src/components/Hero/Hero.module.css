@@ -1,0 +1,25 @@
+.hero {
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 1;
+}
+
+.heroContent {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  transition: font-size 0.3s ease;
+  font-family: "Genos", sans-serif;
+  color: var(--rusty);
+}
