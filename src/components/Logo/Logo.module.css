@@ -8,32 +8,83 @@
 .logo {
   font-weight: 700;
   font-style: normal;
-  font-size: 30px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    font-size: 30px;
+  }
 }
 
 .logoS {
   font-family: "Genos", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 21px;
+}
+@media (min-width: 768px) {
+  .logoS {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .logoS {
+    font-size: 40px;
+  }
 }
 
 .logoTiny {
-  margin-top: -24px;
-  font-size: 9px;
+  margin-top: -12px;
+  font-size: 5px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
   text-align: right;
   color: white;
+}
+@media (min-width: 768px) {
+  .logoTiny {
+    font-size: 7px;
+  }
+}
+@media (min-width: 1024px) {
+  .logoTiny {
+    margin-top: -24px;
+    font-size: 9px;
+  }
 }
 
 .logoText {
   font-family: "Genos", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 7px;
+}
+@media (min-width: 768px) {
+  .logoText {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1024px) {
+  .logoText {
+    font-size: 12px;
+  }
 }
 
 .logoTextR {
-  font-size: 18px;
+  font-size: 9px;
   font-weight: 400;
   font-family: "Genos", sans-serif;
+}
+@media (min-width: 768px) {
+  .logoTextR {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .logoTextR {
+    font-size: 18px;
+  }
 }

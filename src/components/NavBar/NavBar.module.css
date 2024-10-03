@@ -13,17 +13,11 @@
 }
 .listItem.favorite::after {
   position: absolute;
-  content: attr(data-favorite-count);
   font-size: 12px;
-  right: -20px;
-  top: -10px;
   color: var(--button);
   font-weight: 700;
   border-radius: 50%;
   padding: 4px;
-}
-.listItem:not(:last-child) {
-  margin-right: 20px;
 }
 
 .link {
@@ -36,12 +30,12 @@
   background-color: var(--header-color);
   border-color: var(--header-color);
   box-shadow: var(--box-shadow);
-  color: var(--main-text);
+  color: white;
   transition: color 0.15s ease-in-out;
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 425px) {
   .link {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -57,7 +51,7 @@
   background: var(--rusty);
   border-bottom: 3px solid var(--rusty);
   border: none;
-  color: white;
+  color: var(--link-active);
   font-weight: 600;
   text-shadow: 1px 2px 5px 10px var(--box-shadow);
 }

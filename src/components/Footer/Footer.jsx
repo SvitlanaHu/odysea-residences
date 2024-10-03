@@ -7,6 +7,7 @@ export const Footer =()=>{
     return <footer className={styles.wrapper}>
       <div className={styles.container}>
         <Link to="/"><Logo /></Link>
+        <p>© 2024 </p>
         <SocialLink/>
       </div> 
     </footer>

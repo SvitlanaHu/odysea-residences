@@ -17,8 +17,6 @@ const heroImages = {
 
 export const Hero = () => {
   const location = useLocation();
-  
-  // Визначаємо відповідне зображення на основі поточного шляху
   const currentImage = heroImages[location.pathname] || homeHero;
 
   return (
