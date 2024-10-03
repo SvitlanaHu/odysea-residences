@@ -1,6 +1,38 @@
 .wrapper {
   display: flex;
+  margin-right: 30px;
 }
 .list {
   display: flex;
+  gap: 30px;
+  color: white;
+  fill: white;
+}
+
+.link {
+  display: flex;
+  border-radius: 10px;
+  padding: 4px 8px;
+  size: 20px;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--header-color);
+  border-color: var(--header-color);
+  box-shadow: var(--box-shadow);
+  color: var(--main-text);
+  transition: color 0.15s ease-in-out;
+}
+.link:hover,
+.link:focus {
+  cursor: pointer;
+  background: var(--rusty);
+  border-bottom: 3px solid var(--rusty);
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 2px 5px 10px var(--box-shadow);
+}
+.active {
+  background: inherit;
+  color: var(--button-active);
 }
