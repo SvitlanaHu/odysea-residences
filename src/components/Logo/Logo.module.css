@@ -1,0 +1,38 @@
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+
+  border-color: red;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.logoS {
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.logoTiny {
+  margin-top: -48px;
+  font-size: 19px;
+  text-align: right;
+}
+
+.logoText {
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.logoTextR {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Genos", sans-serif;
+}
