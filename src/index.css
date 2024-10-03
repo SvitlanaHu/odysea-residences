@@ -1,14 +1,15 @@
 @import "./reset.css";
 
 :root {
-  --background: #bbb7b7af;
+  --background: #a5a5a5af;
+  --header-color: #bbb7b7;
   --main-text: #213547;
   --box-shadow-color: #a4882e;
   --animation-shadow: blink 3s infinite;
   --box-shadow: 0 4px 8px 0px var(--box-shadow-color);
   --rusty: #e8a45bce;
   --button-active: #de790dce;
-  --link-active: #11cdd0c0;
+  --link-active: #40ecef;
   --night: #010235;
   --animation: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -20,8 +21,8 @@
   /* color: rgba(255, 255, 255, 0.87); */
   background: repeating-linear-gradient(
     58deg,
-    /* Кут нахилу смужок */ var(--background) 10px,
-    /* Колір 1 (білий) */ var(--background) 20px,
+    /* Кут нахилу смужок */ var(--header-color) 10px,
+    /* Колір 1 (білий) */ var(--header-color) 20px,
     /* Довжина першої смужки */ var(--rusty) 30px,
     /* Початок другої смужки */ var(--rusty) 40px /* Довжина другої смужки */
   );
