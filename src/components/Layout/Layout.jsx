@@ -8,7 +8,9 @@ export const Layout = () => {
   return (
       <Suspense fallback={null}>
         <Header />
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>        
         <Footer />
       </Suspense>
   );
