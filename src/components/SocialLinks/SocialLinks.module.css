@@ -1,19 +1,23 @@
 .wrapper {
   display: flex;
-  margin-right: 30px;
 }
 .list {
   display: flex;
-  gap: 30px;
+  gap: 8px;
   color: white;
   fill: white;
+}
+@media (min-width: 768px) {
+  .list {
+    gap: 30px;
+  }
 }
 
 .link {
   display: flex;
   border-radius: 50%;
-  padding: 8px;
-  size: 30px;
+  padding: 4px;
+  size: 8px;
   align-items: center;
   cursor: pointer;
   background-color: var(--header-color);
@@ -21,6 +25,12 @@
   box-shadow: var(--box-shadow);
   color: var(--main-text);
   transition: color 0.15s ease-in-out;
+}
+@media (min-width: 768px) {
+  .link {
+    gap: 20px;
+    size: 30px;
+  }
 }
 .link:hover,
 .link:focus {
