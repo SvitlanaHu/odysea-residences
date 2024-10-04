@@ -20,23 +20,29 @@
   align-items: center;
   padding: 12px 8px;
   /* gap: 8px; */
-  min-width: 318px;
+  min-width: 302px;
+}
+@media (min-width: 425px) {
+  .container {
+    padding: 16px;
+    width: 392px;
+  }
 }
 @media (min-width: 768px) {
   .container {
     padding: 64px 32px;
     gap: 32px;
-    width: 768px;
+    width: 704px;
   }
 }
 @media (min-width: 1024px) {
   .container {
-    width: 1024px;
+    width: 960px;
   }
 }
 @media (min-width: 1440px) {
   .container {
-    width: 1440px;
+    width: 1376px;
   }
 }
 
