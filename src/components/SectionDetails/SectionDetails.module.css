@@ -9,7 +9,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   gap: 0;
 }
 
@@ -34,12 +34,12 @@
     flex-direction: row;
     align-items: stretch;
     padding: 32px 32px 0 32px;
-    width: 736px;
+    width: 880px;
   }
 }
 @media (min-width: 1024px) {
   .description {
-    width: 960px;
+    width: 1198px;
   }
 }
 @media (min-width: 1440px) {
@@ -54,13 +54,19 @@
 @media (min-width: 768px) {
   .img {
     /* height: 450px; */
-    width: 465px;
+    width: 266px;
   }
 }
 @media (min-width: 1024px) {
   .img {
     /* height: 600px; */
-    width: 620px;
+    width: 350px;
+  }
+}
+@media (min-width: 1440px) {
+  .img {
+    /* height: 600px; */
+    width: 600px;
   }
 }
 
@@ -83,13 +89,11 @@
 @media (min-width: 768px) {
   .about {
     width: calc(100% - 468px);
-    /* height: 418px; */
   }
 }
 @media (min-width: 1024px) {
   .about {
     width: calc(100% - 620px);
-    /* height: 535px; */
   }
 }
 
@@ -101,10 +105,15 @@
 }
 @media (min-width: 768px) {
   .title {
-    font-size: 1.5em;
+    font-size: 0.8em;
   }
 }
 @media (min-width: 1024px) {
+  .title {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 1438px) {
   .title {
     font-size: 2.5em;
   }
@@ -124,7 +133,7 @@
 }
 @media (min-width: 1024px) {
   .text {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
 }
 
@@ -133,9 +142,9 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin: 0;
+  /* margin-left: 60px; */
   padding: 0 8px 8px 8px;
-  width: calc(100% - 18px);
+  width: calc(100% - 20px);
 }
 @media (min-width: 425px) {
   .list {
@@ -149,7 +158,7 @@
     flex-direction: row;
     align-items: stretch;
     padding: 0 32px 32px 32px;
-    width: 736px;
+    width: 710px;
   }
 }
 @media (min-width: 1024px) {
@@ -163,6 +172,9 @@
   }
 }
 
+.item1 {
+  display: none;
+}
 .item1,
 .item3 {
   background-color: var(--background);
@@ -185,13 +197,14 @@
 }
 @media (min-width: 768px) {
   .item1 {
+    display: block;
     flex: 1;
   }
   .item3 {
     flex: 2;
   }
   .item4 {
-    flex: 3;
+    flex: 4;
   }
 }
 
