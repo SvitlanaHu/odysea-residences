@@ -1,5 +1,5 @@
 import styles from "./SectionAbout.module.css";
-import aboutImage from '../../assets/images/About.jpg';
+import aboutImage from '../../assets/images/home-about.jpg';
 
 export const SectionAbout =()=> {
     return (<section className={styles.wrapper}>

@@ -9,33 +9,41 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: stretch;
-  padding: 8px;
+  padding: 8px 8px 0 8px;
+  margin: 0;
   width: calc(100% - 18px);
 }
 @media (min-width: 425px) {
-  .container {
+  .description {
     width: 392px;
-    padding: 16px;
+    padding: 16px 16px 0 16px;
   }
 }
 @media (min-width: 768px) {
-  .container {
+  .description {
     flex-direction: row;
     align-items: stretch;
-    padding: 32px;
+    padding: 32px 32px 0 32px;
     width: 736px;
   }
 }
 @media (min-width: 1024px) {
-  .container {
+  .description {
     width: 960px;
   }
 }
 @media (min-width: 1440px) {
-  .container {
+  .description {
     width: 1376px;
   }
 }
@@ -117,5 +125,86 @@
 @media (min-width: 1024px) {
   .text {
     font-size: 1.1em;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 8px 8px 8px;
+  width: calc(100% - 18px);
+}
+@media (min-width: 425px) {
+  .list {
+    width: 392px;
+    padding: 0 16px 16px 16px;
+  }
+}
+@media (min-width: 768px) {
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0 32px 32px 32px;
+    width: 736px;
+  }
+}
+@media (min-width: 1024px) {
+  .list {
+    width: 960px;
+  }
+}
+@media (min-width: 1440px) {
+  .list {
+    width: 1376px;
+  }
+}
+
+.item1,
+.item3 {
+  background-color: var(--background);
+  text-align: center;
+}
+.item4 {
+  width: calc(100% - 32px);
+  padding: 16px;
+  text-align: left;
+  background-color: var(--background);
+}
+@media (min-width: 425px) {
+  .item1,
+  .item3 {
+    width: 390px;
+  }
+  .item4 {
+    width: 358px;
+  }
+}
+@media (min-width: 768px) {
+  .item1 {
+    flex: 1;
+  }
+  .item3 {
+    flex: 2;
+  }
+  .item4 {
+    flex: 3;
+  }
+}
+
+.images,
+.image1 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .image1 {
+    margin-left: 16px;
+    padding-top: 60px;
+  }
+  .item3 {
+    padding-top: 50px;
   }
 }
