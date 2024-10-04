@@ -37,10 +37,15 @@
 }
 
 .hero h1 {
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   transition: font-size 0.3s ease;
   font-family: "Genos", sans-serif;
   color: var(--rusty);
   fill: var(--rusty);
+}
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 5rem;
+  }
 }
