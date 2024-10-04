@@ -17,7 +17,7 @@
   text-align: center;
   justify-content: center;
   padding: 8px;
-  min-width: 318px;
+  max-width: 425px;
 }
 @media (min-width: 768px) {
   .container {

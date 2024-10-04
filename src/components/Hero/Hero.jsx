@@ -20,7 +20,7 @@ export const Hero = () => {
   const currentImage = heroImages[location.pathname] || homeHero;
 
   return (
-    <section className={styles.wrapper} style={{ backgroundImage: `url(${currentImage})` }}>
+    <section className={styles.wrapper} style={{ backgroundImage: `url(${currentImage})`, height: '120px', }}>
       <div className={styles.container}>
         <h1>{location.pathname === '/' ? 'Welcome to Our Website' : location.pathname.slice(1).toUpperCase()}</h1>
       </div>
